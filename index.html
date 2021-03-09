@@ -10,7 +10,7 @@
     <style type="text/css">
 
         .masthead{
-            font-family: 'Damion', cursive; /* required for google font /
+            font-family: 'Damion', cursive; 
             font-size:3em;
         }
 
@@ -18,32 +18,32 @@
             float:right;
             display:inline-block;
             padding:2px;
-            max-width:100px; / actual size of image /
-            width:20%; / approximate size taken on screen in maximum view /
+            max-width:100px; 
+            width:20%; 
         }
 
         #wear {
             float:left;
             display:inline-block;
             padding:20px;
-            max-width:300px; / actual size of image /
-            width:33%; / approximate size taken on screen in maximum view /
+            max-width:300px; 
+            width:33%; 
         }
         footer {
             text-align:center;
-            clear:both; / ride below all items /
+            clear:both; 
             }
         nav{
-            text-align:center; / centers the nav */
+            text-align:center; 
         }
 
 nav ul {
-                list-style:none; /* removes the bullets /
+                list-style:none; 
             }
         nav ul li
             {
-                display:inline-block; / makes horizontal, but able to declare margins /
-                margin:0 2%; / margin left-right, gets smaller as necessary */
+                display:inline-block; 
+                margin:0 2%; 
             }
         nav a:hover{
             text-decoration: none;
@@ -103,7 +103,7 @@ nav ul {
       </small>
     </footer>
     <!-- END Footer -->
-    <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
     <script type="text/javascript">
     $("document").ready(function(){
         $('.seasons a').click(function(e){//find all a tags inside class of seasons
@@ -113,7 +113,7 @@ nav ul {
             season = season.toLowerCase();
             switch(season){
                 case "spring":
-                    //alert("yay Spring");
+                    
                     $("#logo").attr("src","images/spring.gif");
                     $("#wear").attr("src","images/spring-wear.jpg");
                     $("html").css("background-color","#2B7129");
